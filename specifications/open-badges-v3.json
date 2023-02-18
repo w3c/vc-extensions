@@ -1,0 +1,10 @@
+{
+  "name": "Open Badges v3",
+  "summary": "Education credentials for sharing achievements and skills.",
+  "specification": "https://www.imsglobal.org/spec/ob/v3p0/main/",
+  "category": "vc",
+  "maintainerEmail": "contact@imsglobal.org",
+  "maintainerName": "1EdTech",
+  "maintainerWebsite": "https://www.imsglobal.org/",
+  "vocabulary": ["https://purl.imsglobal.org/spec/ob/v3p0/context.json"]
+}
