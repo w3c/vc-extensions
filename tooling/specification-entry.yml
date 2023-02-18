@@ -22,7 +22,6 @@ properties:
     description: An URL that resolves to a human readable specification.
     type: string
     maxLength: 512
-    format: uri
     pattern: ^https?:\/\/
   category:
     description: The Verifiable Credential extension category of the specification.
@@ -31,6 +30,7 @@ properties:
       - credentialStatus
       - credentialSchema
       - evidence
+      - proof
       - refreshService
       - termsOfUse
       - vc
@@ -46,7 +46,6 @@ properties:
     description: An website to send contact requests
     type: string
     maxLength: 512
-    format: uri
     pattern: ^https?:\/\/
   vocabulary:
     description: An array of URLs that contain machine-readable vocabulary information in yml2vocab or JSON-LD format.
@@ -54,7 +53,6 @@ properties:
     items:
       type: string
       maxLength: 512
-      format: uri
       pattern: ^https?:\/\/
 example: {
   # These fields are required
