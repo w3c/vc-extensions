@@ -1,0 +1,73 @@
+---
+title: Verifiable Credential Specification Entry
+description: This schema defines the shape of Verifiable Credential specification entries in the directory.
+type: object
+additionalProperties: false
+required:
+  - name
+  - summary
+  - specification
+  - category
+  - maintainerEmail
+properties:
+  name:
+    description: A short human readable name for the specification.
+    type: string
+    maxLength: 100
+  summary:
+    description: A one sentence description for the specification.
+    type: string
+    maxLength: 500
+  specification:
+    description: An URL that resolves to a human readable specification.
+    type: string
+    maxLength: 512
+    format: uri
+    pattern: ^https?:\/\/
+  category:
+    description: The Verifiable Credential extension category of the specification.
+    type: string
+    enum:
+      - credentialStatus
+      - credentialSchema
+      - evidence
+      - refreshService
+      - termsOfUse
+      - vc
+  maintainerName:
+    description: A person or organization which responds to contact requests
+    type: string
+    maxLength: 512
+  maintainerEmail:
+    description: An email to send contact requests
+    type: string
+    maxLength: 512
+  maintainerWebsite:
+    description: An website to send contact requests
+    type: string
+    maxLength: 512
+    format: uri
+    pattern: ^https?:\/\/
+  vocabulary:
+    description: An array of URLs that contain machine-readable vocabulary information in yml2vocab or JSON-LD format.
+    type: array
+    items:
+      type: string
+      maxLength: 512
+      format: uri
+      pattern: ^https?:\/\/
+example: {
+  # These fields are required
+  "name": "Example VC",
+  "summary": "Used to demonstrate examples for Verifiable Credentials.",
+  "specification": "https://example.github.io/example-spec/",
+  # categories include: vc, credentialStatus, credentialSchema,
+  #                     refreshService, termsOfUse, evidence, and proof
+  "category": "vc",
+  "maintainerEmail": "maintainer@org.example",
+  # These fields are optional
+  "maintainerName": "Example Community Group",
+  "maintainerWebsite": "https://example.github.io/",
+  # RDF vocabularies in yml2vocab format or JSON-LD Contexts
+  "vocabulary": ["https://example.github.io/vocabularies/example.yml"]
+}
