@@ -24,13 +24,18 @@ Here is an [example specification entry](https://w3c.github.io/vc-spec-directory
 ```jsonc
 {
   // These fields are required
-  "name": "example",
+  "name": "Example VC",
+  "summary": "Used to demonstrate examples for Verifiable Credentials.",
   "specification": "https://example.github.io/example-spec/",
-  "contactEmail": "",
+  // categories include: vc, credentialStatus, credentialSchema,
+  //                     refreshService, termsOfUse, evidence, and proof
+  "category": "vc",
+  "maintainerEmail": "maintainer@org.example",
   // These fields are optional
-  "contactName": "W3C Credentials Community Group",
-  "contactWebsite": "",
-  "vocabularyDefinition": ""
+  "maintainerName": "Example Community Group",
+  "maintainerWebsite": "https://example.github.io/",
+  // RDF vocabularies in yml2vocab format
+  "vocabulary": ["https://example.github.io/vocabularies/example.yml"]
 }
 ```
 
