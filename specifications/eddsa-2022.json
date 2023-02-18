@@ -1,0 +1,11 @@
+{
+  "name": "EdDSA Cryptosuite (v2022)",
+  "summary": "The Edwards Curve digital signature algorithm data integrity cryptosuite.",
+  "specification": "https://w3c.github.io/vc-di-eddsa/",
+  "category": "proof",
+  "maintainerEmail": "public-vc-wg@w3.org",
+  "maintainerName": "W3C Verifiable Credentials Working Group",
+  "maintainerWebsite": "https://www.w3.org/groups/wg/vc",
+  "vocabulary": ["https://raw.githubusercontent.com/w3c/vc-data-integrity/main/vocab/security/vocabulary.yml"]
+}
+
