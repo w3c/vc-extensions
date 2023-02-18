@@ -2,7 +2,7 @@
 
 [![Echidna Auto-publish](https://github.com/w3c/vc-spec-directory/actions/workflows/auto-publish.yml/badge.svg)](https://github.com/w3c/vc-spec-directory/actions/workflows/auto-publish.yml)
 
-# Decentralized Identifier Core Registries v1.0
+# Verifiable Credential Specifications Directory
 
 This repository contains a directory created by the
 [W3C Verifiable Credentials Working Group](https://www.w3.org/groups/wg/vc)
