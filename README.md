@@ -50,7 +50,7 @@ regarding the required criteria may be requested. If there are no
 objections or changes requested, your specification will be
 added after a minimum of 7 days and a maximum of 30 days.
 
-## Adding Anything Else to this Registry
+## Adding Anything Else to this Directory
 
 Use the standard fork, branch, and pull request workflow to propose changes to
 the directory. Please make branch names informative—by including the issue or
