@@ -1,0 +1,23 @@
+name: Validate VC Specs Directory
+on:
+  pull_request: {}
+
+jobs:
+  validate-directory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code...
+        uses: actions/checkout@v2
+      - name: Setup Node 16...
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: Install vc-specs-directory tooling...
+        working-directory: tooling
+        run: npm i
+      - name: Validate vc-specs-directory entries
+        working-directory: tooling
+        run: npm run validate
+      - name: Generate vc-specs-directory index
+        working-directory: tooling
+        run: npm run generate-index
