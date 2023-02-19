@@ -1,0 +1,34 @@
+name: Publish DID Method Registry
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-vc-specs-directory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code...
+        uses: actions/checkout@v2
+      - name: Setup Node 16...
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: Install vc-specs-directory tooling...
+        working-directory: tooling
+        run: npm i
+      - name: Validate vc-specs-directory DID method entries
+        working-directory: tooling
+        run: npm run validate
+      - name: Generate vc-specs-directory registry index
+        working-directory: tooling
+        run: npm run generate-index
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages
+          folder: .
+          token: ${{ secrets.GITHUB_TOKEN }}
+          git-config-name: 'didwg[bot]'
+          git-config-email: 'didwg[bot]@users.noreply.github.com'
+          single-commit: true
