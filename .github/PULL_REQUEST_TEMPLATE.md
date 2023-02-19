@@ -19,7 +19,7 @@ Here is an example specification entry:
   // categories include: vc, credentialStatus, credentialSchema,
   //                     refreshService, termsOfUse, evidence, and proof
   "category": "vc",
-  "maintainerEmail": "maintainer@org.example",
+  "maintainerEmail": "maintainer@community.example",
   // These fields are optional
   "maintainerName": "Example Community Group",
   "maintainerWebsite": "https://example.github.io/",
