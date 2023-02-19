@@ -1,7 +1,6 @@
 # .github/workflows/pr-push.yml
 name: Publish to Echidna
 on:
-  pull_request: {}
   push:
     branches: [DISABLED]
 jobs:
