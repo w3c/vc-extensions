@@ -1,0 +1,33 @@
+# .github/workflows/pr-push.yml
+name: Publish to Echidna
+on:
+  pull_request: {}
+  push:
+    branches: [DISABLED]
+jobs:
+  main:
+    name: Build, Validate and Deploy
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Begin spec-prod...
+        uses: actions/checkout@v2
+      - name: Setup Node 16...
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - name: Install vc-specs-directory tooling...
+        working-directory: tooling
+        run: npm i
+      - name: Validate vc-specs-directory DID method entries
+        working-directory: tooling
+        run: npm run validate
+      - name: Generate vc-specs-directory registry index
+        working-directory: tooling
+        run: npm run generate-index
+      - uses: w3c/spec-prod@v2
+        with:
+          W3C_ECHIDNA_TOKEN: ${{ secrets.W3C_TR_TOKEN }}
+          W3C_WG_DECISION_URL: TBD
+          W3C_BUILD_OVERRIDE: |
+             shortName: vc-specs-directory
+             specStatus: NOTE
