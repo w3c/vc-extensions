@@ -1,6 +1,6 @@
 ![W3C Logo](https://www.w3.org/Icons/w3c_home)
 
-[![Echidna Auto-publish](https://github.com/w3c/vc-spec-directory/actions/workflows/auto-publish.yml/badge.svg)](https://github.com/w3c/vc-spec-directory/actions/workflows/auto-publish.yml)
+[![Echidna Auto-publish](https://github.com/w3c/vc-specs-dir/actions/workflows/auto-publish.yml/badge.svg)](https://github.com/w3c/vc-specs-dir/actions/workflows/auto-publish.yml)
 
 # Verifiable Credential Specifications Directory
 
@@ -10,16 +10,16 @@ This repository contains a directory created by the
 Verifiable Credentials Ecosystem.
 
 An Editor's Draft of this repository is available at
-https://w3c.github.io/vc-spec-directory/.
+https://w3c.github.io/vc-specs-dir/.
 
 ## Adding New Entries to the Directory
 
 In order to add a new specification to this directory, you must add a JSON file
 to the [./specifications](./specifications) directory and
-[open a pull request](https://github.com/w3c/vc-spec-directory/pulls)
+[open a pull request](https://github.com/w3c/vc-specs-dir/pulls)
 to add the file to this repository.
 
-Here is an [example specification entry](https://w3c.github.io/vc-spec-directory/specifications/example.json):
+Here is an [example specification entry](https://w3c.github.io/vc-specs-dir/specifications/example.json):
 
 ```jsonc
 {
@@ -60,7 +60,7 @@ Editorial changes that improve the readability of the directory or correct
 spelling or grammatical mistakes are welcome.
 
 Non-editorial changes MUST go through a review and approval process that is
-[detailed in the directory](https://w3c.github.io/vc-spec-directory/#the-management-process).
+[detailed in the directory](https://w3c.github.io/vc-specs-dir/#the-management-process).
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md), about licensing contributions.
 
