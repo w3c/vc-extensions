@@ -6,5 +6,5 @@
   "maintainerEmail": "contact@imsglobal.org",
   "maintainerName": "1EdTech",
   "maintainerWebsite": "https://www.1edtech.org/",
-  "vocabulary": ["https://purl.imsglobal.org/spec/ob/v3p0/context.json"]
+  "vocabulary": ["https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.1.json"]
 }
