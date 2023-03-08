@@ -1,0 +1,9 @@
+{
+  "name": "1EdTech Verifiable Credential Refresh Service",
+  "summary": "Refresh service for refreshing an expired or modified verifiable credential.",
+  "specification": "https://imsglobal.org/spec/vccr/v1p0",
+  "category": "refreshService",
+  "maintainerEmail": "contact@imsglobal.org",
+  "maintainerName": "1EdTech",
+  "maintainerWebsite": "https://www.1edtech.org/"
+}
