@@ -142,18 +142,43 @@ individual.
   specifications to address a variety of real world use cases. Examples of
   extensions include, but are not limited to, new types of Verifiable Credentials
   and ways of expressing credential status, schema validation, evidence,
-  refreshing, terms of use, and cryptographic suites for securing credentials. In
+  refreshing, terms of use, and cryptographic suites for securing credentials.
+     </p>
+     <p> In
   order to add a new specification to this directory, an implementer submits a
   modification request for this directory, as a pull request on the repository
-  where this directory is hosted, where the modification request adheres to the
-  following policies:
-      </p>
+  where this directory is hosted.
+  </p>
 
+  Here is an example:
+
+  <p>
+  <pre class="example">
+{
+  // These fields are required
+  "name": "Example VC",
+  "summary": "Used to demonstrate examples for Verifiable Credentials.",
+  "specification": "https://example.github.io/example-spec/",
+  // categories include: vc, credentialStatus, credentialSchema,
+  //                     refreshService, termsOfUse, evidence, and proof
+  "category": "vc",
+  "maintainerEmail": "maintainer@community.example",
+  // These fields are optional
+  "maintainerName": "Example Community Group",
+  "maintainerWebsite": "https://example.github.io/",
+  // RDF vocabularies in yml2vocab format
+  "vocabulary": ["https://example.github.io/vocabularies/example.yml"]
+}
+  </pre>
+  </p>
+  <p>
+  The modification request MUST adhere to the following policies:
+  </p>
       <ol>
         <li>
   Any addition to the directory MUST conform to the
   <a href="https://w3c.github.io/vc-specs-dir/tooling/specification-entry.yml">
-  JSON Schema for a directory entry</a>.
+  JSON Schema for a directory entry</a>. 
         </li>
         <li>
   If there are copyright, trademark, or any intellectual property rights
