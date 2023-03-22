@@ -1,0 +1,9 @@
+{
+	"name": "OIDF eKYC and IDA Evidence",
+	"summary": "Evidence property that conforms to the OpenID Connect for Identity Assurance specification",
+	"specification": "https://docs.google.com/document/d/1htujrb-_1kh8tkV4MXYRmZ44m_D7yFrY09aFJkAz7io/",
+	"category": "evidence",
+	"maintainerEmail": ["d.w.chadwick@truetrust.co.uk", "mark@considrd.consulting"],
+	"maintainerName": ["David Chadwick", "Mark Hain"],
+	"maintainerWebsite": "https://openid.net/specs/openid-connect-4-identity-assurance-1_0.html"
+} 
