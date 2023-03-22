@@ -1,0 +1,9 @@
+{
+	"name": "TRAIN Terms of Use",
+	"summary": "Terms of Use for an Issuer to indicate that they are a member of one or more TRAIN/ETSI list of trusted issuers",
+	"specification": "https://dl.gi.de/handle/20.500.12116/38702",
+	"category": "termsOfUse",
+	"maintainerEmail": "d.w.chadwick@truetrust.co.uk",
+	"maintainerName": "David Chadwick",
+	"maintainerWebsite": "https://gitlab.grnet.gr/essif-lab/infrastructure/fraunhofer/train-source-code"
+} 
