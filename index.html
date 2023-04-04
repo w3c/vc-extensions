@@ -136,6 +136,75 @@ individual.
     </p>
 
     <section>
+      <h1>Specification Entry Terms</h1>
+      <section>
+        <h2>name</h2>
+        <p>A short human readable name for the specification.</p>
+        <p>For example: <code>Status List (v2021)</code>.</p>
+      </section>
+      <section>
+        <h2>summary</h2>
+        <p>A one sentence description for the specification.</p>
+        <p>For example: <code>A credential status list with herd privacy characteristics.</code>.</p>
+      </section>
+      <section>
+        <h2>specification</h2>
+        <p>An URL that resolves to a human readable specification.</p>
+        <p>For example: <code>https://w3c.github.io/vc-status-list-2021/</code>.</p>
+      </section>
+      <section>
+        <h2>category</h2>
+        <p>The Verifiable Credential extension category of the specification.</p>
+        <p class="note"> The extensions might define an <code>@type</code>. See [[JSON-LD11]]</p>
+        <p>One of the following:</p> 
+        <ul>
+          <li>
+            credentialStatus
+          </li>
+          <li>
+            credentialSchema
+          </li>
+          <li>
+            evidence
+          </li>
+          <li>
+            proof
+          </li>
+          <li>
+            refreshService
+          </li>
+          <li>
+            termsOfUse
+          </li>
+          <li>
+            vc
+          </li>
+        </ul>
+        <p>For example: <code>credentialStatus</code>.</p>
+      </section>
+      <section>
+        <h2>maintainerName</h2>
+        <p>A person or organization which responds to contact requests</p>
+        <p>For example: <code>W3C Verifiable Credentials Working Group</code>.</p>
+      </section>
+      <section>
+        <h2>maintainerEmail</h2>
+        <p>An email to send contact requests</p>
+        <p>For example: <code>public-vc-wg@w3.org</code>.</p>
+      </section>
+      <section>
+        <h2>maintainerWebsite</h2>
+        <p>An website to send contact requests</p>
+        <p>For example: <code>https://www.w3.org/groups/wg/vc</code>.</p>
+      </section>
+      <section>
+        <h2>vocabulary</h2>
+        <p>An array of URLs that contain machine-readable vocabulary information in yml2vocab or JSON-LD format.</p>
+        <p>For example: <code>["https://raw.githubusercontent.com/w3c/vc-status-list-2021/main/contexts/v1.jsonld"]</code>.</p>
+      </section>
+    </section>
+
+    <section>
       <h1>Adding a Specification Entry</h1>
       <p>
   The Verifiable Credentials Data Model is designed to be extended by 3rd party
@@ -220,6 +289,8 @@ individual.
     <section id="conformance"></section>
 
   </section>
+
+  
 
   <section>
     <h1>Property Extensions</h1>
