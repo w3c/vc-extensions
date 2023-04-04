@@ -136,24 +136,113 @@ individual.
     </p>
 
     <section>
+      <h1>Specification Entry Terms</h1>
+      <section>
+        <h2>name</h2>
+        <p>A short human readable name for the specification.</p>
+        <p>For example: <code>Status List (v2021)</code>.</p>
+      </section>
+      <section>
+        <h2>summary</h2>
+        <p>A one sentence description for the specification.</p>
+        <p>For example: <code>A credential status list with herd privacy characteristics.</code>.</p>
+      </section>
+      <section>
+        <h2>specification</h2>
+        <p>An URL that resolves to a human readable specification.</p>
+        <p>For example: <code>https://w3c.github.io/vc-status-list-2021/</code>.</p>
+      </section>
+      <section>
+        <h2>category</h2>
+        <p>The Verifiable Credential extension category of the specification.</p>
+        <p class="note"> The extensions might define an <code>@type</code>. See [[JSON-LD11]]</p>
+        <p>One of the following:</p> 
+        <ul>
+          <li>
+            credentialStatus
+          </li>
+          <li>
+            credentialSchema
+          </li>
+          <li>
+            evidence
+          </li>
+          <li>
+            proof
+          </li>
+          <li>
+            refreshService
+          </li>
+          <li>
+            termsOfUse
+          </li>
+          <li>
+            vc
+          </li>
+        </ul>
+        <p>For example: <code>credentialStatus</code>.</p>
+      </section>
+      <section>
+        <h2>maintainerName</h2>
+        <p>A person or organization which responds to contact requests</p>
+        <p>For example: <code>W3C Verifiable Credentials Working Group</code>.</p>
+      </section>
+      <section>
+        <h2>maintainerEmail</h2>
+        <p>An email to send contact requests</p>
+        <p>For example: <code>public-vc-wg@w3.org</code>.</p>
+      </section>
+      <section>
+        <h2>maintainerWebsite</h2>
+        <p>An website to send contact requests</p>
+        <p>For example: <code>https://www.w3.org/groups/wg/vc</code>.</p>
+      </section>
+      <section>
+        <h2>vocabulary</h2>
+        <p>An array of URLs that contain machine-readable vocabulary information in yml2vocab or JSON-LD format.</p>
+        <p>For example: <code>["https://raw.githubusercontent.com/w3c/vc-status-list-2021/main/contexts/v1.jsonld"]</code>.</p>
+      </section>
+    </section>
+
+    <section>
       <h1>Adding a Specification Entry</h1>
       <p>
   The Verifiable Credentials Data Model is designed to be extended by 3rd party
   specifications to address a variety of real world use cases. Examples of
   extensions include, but are not limited to, new types of Verifiable Credentials
   and ways of expressing credential status, schema validation, evidence,
-  refreshing, terms of use, and cryptographic suites for securing credentials. In
+  refreshing, terms of use, and cryptographic suites for securing credentials.
+     </p>
+     <p> In
   order to add a new specification to this directory, an implementer submits a
   modification request for this directory, as a pull request on the repository
-  where this directory is hosted, where the modification request adheres to the
-  following policies:
-      </p>
+  where this directory is hosted.
+  </p>
 
+  Here is an example:
+
+  <p>
+  <pre class="example">
+{
+  "name": "Example VC",
+  "summary": "Used to demonstrate examples for Verifiable Credentials.",
+  "specification": "https://example.github.io/example-spec/",
+  "category": "vc",
+  "maintainerEmail": "maintainer@community.example",
+  "maintainerName": "Example Community Group",
+  "maintainerWebsite": "https://example.github.io/",
+  "vocabulary": ["https://example.github.io/vocabularies/example.yml"]
+}
+  </pre>
+  </p>
+  <p>
+  The modification request MUST adhere to the following policies:
+  </p>
       <ol>
         <li>
   Any addition to the directory MUST conform to the
   <a href="https://w3c.github.io/vc-specs-dir/tooling/specification-entry.yml">
-  JSON Schema for a directory entry</a>.
+  JSON Schema for a directory entry</a>. 
         </li>
         <li>
   If there are copyright, trademark, or any intellectual property rights
@@ -195,6 +284,8 @@ individual.
     <section id="conformance"></section>
 
   </section>
+
+  
 
   <section>
     <h1>Property Extensions</h1>
