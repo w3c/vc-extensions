@@ -1,0 +1,9 @@
+{
+  "name": "Open Api Specification Validator (v2022)",
+  "summary": "This specification defines a credential schema validation scheme for use with the credential schema property of Verifiable Credentials.",
+  "specification": "https://transmute-industries.github.io/vc-credential-schema-open-api-specification/",
+  "category": "credentialSchema",
+  "maintainerEmail": "orie@transmute.industries",
+  "maintainerName": "Transmute",
+  "maintainerWebsite": "https://transmute.industries"
+}
