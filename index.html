@@ -136,75 +136,6 @@ individual.
     </p>
 
     <section>
-      <h1>Specification Entry Terms</h1>
-      <section>
-        <h2>name</h2>
-        <p>A short human readable name for the specification.</p>
-        <p>For example: <code>Status List (v2021)</code>.</p>
-      </section>
-      <section>
-        <h2>summary</h2>
-        <p>A one sentence description for the specification.</p>
-        <p>For example: <code>A credential status list with herd privacy characteristics.</code>.</p>
-      </section>
-      <section>
-        <h2>specification</h2>
-        <p>An URL that resolves to a human readable specification.</p>
-        <p>For example: <code>https://w3c.github.io/vc-status-list-2021/</code>.</p>
-      </section>
-      <section>
-        <h2>category</h2>
-        <p>The Verifiable Credential extension category of the specification.</p>
-        <p class="note"> The extensions might define an <code>@type</code>. See [[JSON-LD11]]</p>
-        <p>One of the following:</p> 
-        <ul>
-          <li>
-            credentialStatus
-          </li>
-          <li>
-            credentialSchema
-          </li>
-          <li>
-            evidence
-          </li>
-          <li>
-            proof
-          </li>
-          <li>
-            refreshService
-          </li>
-          <li>
-            termsOfUse
-          </li>
-          <li>
-            vc
-          </li>
-        </ul>
-        <p>For example: <code>credentialStatus</code>.</p>
-      </section>
-      <section>
-        <h2>maintainerName</h2>
-        <p>A person or organization which responds to contact requests</p>
-        <p>For example: <code>W3C Verifiable Credentials Working Group</code>.</p>
-      </section>
-      <section>
-        <h2>maintainerEmail</h2>
-        <p>An email to send contact requests</p>
-        <p>For example: <code>public-vc-wg@w3.org</code>.</p>
-      </section>
-      <section>
-        <h2>maintainerWebsite</h2>
-        <p>An website to send contact requests</p>
-        <p>For example: <code>https://www.w3.org/groups/wg/vc</code>.</p>
-      </section>
-      <section>
-        <h2>vocabulary</h2>
-        <p>An array of URLs that contain machine-readable vocabulary information in yml2vocab or JSON-LD format.</p>
-        <p>For example: <code>["https://raw.githubusercontent.com/w3c/vc-status-list-2021/main/contexts/v1.jsonld"]</code>.</p>
-      </section>
-    </section>
-
-    <section>
       <h1>Adding a Specification Entry</h1>
       <p>
   The Verifiable Credentials Data Model is designed to be extended by 3rd party
@@ -240,52 +171,125 @@ individual.
   </p>
       <ol>
         <li>
-  Any addition to the directory MUST conform to the
-  <a href="https://w3c.github.io/vc-specs-dir/tooling/specification-entry.yml">
-  JSON Schema for a directory entry</a>. 
+Any addition to the directory MUST conform to Section
+<a href="#specification-entry-format"></a>.
         </li>
         <li>
-  If there are copyright, trademark, or any intellectual property rights
-  concerns, the addition and use MUST be authorized in writing by the intellectual
-  property rights holder under a
-  <a href="https://en.wikipedia.org/wiki/Reasonable_and_non-discriminatory_licensing">F/RAND</a>
-  license. Examples include specifications that use trademarked brand names,
-  property names that utilize the titles of copyrighted works, and patented
-  technology that would cause the use of the extension to require licensing a
-  patent.
+If there are copyright, trademark, or any intellectual property rights
+concerns, the addition and use MUST be authorized in writing by the intellectual
+property rights holder under a
+<a href="https://en.wikipedia.org/wiki/Reasonable_and_non-discriminatory_licensing">F/RAND</a>
+license. Examples include specifications that use trademarked brand names,
+property names that utilize the titles of copyrighted works, and patented
+technology that would cause the use of the extension to require licensing a
+patent.
         </li>
         <li>
-  Any addition MUST NOT create unreasonable legal, security, moral, or privacy
-  issues that will result in direct harm to others. Examples of unacceptable
-  additions include any containing racist language, technologies used to
-  persecute minority populations, and unconsented pervasive tracking.
+Any addition MUST NOT create unreasonable legal, security, moral, or privacy
+issues that will result in direct harm to others. Examples of unacceptable
+additions include any containing racist language, technologies used to
+persecute minority populations, and unconsented pervasive tracking.
         </li>
       </ol>
 
       <p>
-  The Editors of this directory MUST consider all of the policies above when
-  reviewing additions to the directory and MUST reject directory entries if they
-  violate any of the policies in this section. Entities registering additions can
-  challenge rejections first with the W3C Verifiable Credentials Working Group and
-  then, if they are not satisfied with the outcome, with the W3C Staff. W3C Staff
-  need not be consulted on changes to the directory, but do have the final
-  authority on directory contents. This is to ensure that W3C can adequately
-  respond to time sensitive legal, privacy, security, moral, or other pressing
-  concerns without putting an undue operational burden on W3C Staff.
+The Editors of this directory MUST consider all of the policies above when
+reviewing additions to the directory and MUST reject directory entries if they
+violate any of the policies in this section. Entities registering additions can
+challenge rejections first with the W3C Verifiable Credentials Working Group and
+then, if they are not satisfied with the outcome, with the W3C Staff. W3C Staff
+need not be consulted on changes to the directory, but do have the final
+authority on directory contents. This is to ensure that W3C can adequately
+respond to time sensitive legal, privacy, security, moral, or other pressing
+concerns without putting an undue operational burden on W3C Staff.
       </p>
 
       <p>
-  Any submission to the directory that meets all of the criteria listed above will
-  be accepted for inclusion. The specifications listed in this directory enumerate
-  all known specifications, without choosing between them.
+Any submission to the directory that meets all of the criteria listed above will
+be accepted for inclusion. The specifications listed in this directory enumerate
+all known specifications, without choosing between them.
       </p>
+
+      <section>
+        <h1>Specification Entry Format</h1>
+        <p>
+The specification entry format MUST conform to the
+<a href="https://w3c.github.io/vc-specs-dir/tooling/specification-entry.yml">
+JSON Schema for a specification entry</a>. Each field is documented below:
+        </p>
+        <section>
+          <h2>name</h2>
+          <p>A short human readable name for the specification.</p>
+          <p>For example: <code>Status List (v2021)</code>.</p>
+        </section>
+        <section>
+          <h2>summary</h2>
+          <p>A one sentence description for the specification.</p>
+          <p>For example: <code>A credential status list with herd privacy characteristics.</code></p>
+        </section>
+        <section>
+          <h2>specification</h2>
+          <p>An URL that resolves to a human readable specification.</p>
+          <p>For example: <code>https://w3c.github.io/vc-status-list-2021/</code>.</p>
+        </section>
+        <section>
+          <h2>category</h2>
+          <p>The Verifiable Credential extension category of the specification.</p>
+          <p class="note"> The extensions might define an <code>@type</code>. See [[JSON-LD11]]</p>
+          <p>One of the following:</p>
+          <ul>
+            <li>
+              credentialStatus
+            </li>
+            <li>
+              credentialSchema
+            </li>
+            <li>
+              evidence
+            </li>
+            <li>
+              proof
+            </li>
+            <li>
+              refreshService
+            </li>
+            <li>
+              termsOfUse
+            </li>
+            <li>
+              vc
+            </li>
+          </ul>
+          <p>For example: <code>credentialStatus</code>.</p>
+        </section>
+        <section>
+          <h2>maintainerName</h2>
+          <p>A person or organization which responds to contact requests</p>
+          <p>For example: <code>W3C Verifiable Credentials Working Group</code>.</p>
+        </section>
+        <section>
+          <h2>maintainerEmail</h2>
+          <p>An email to send contact requests</p>
+          <p>For example: <code>public-vc-wg@w3.org</code>.</p>
+        </section>
+        <section>
+          <h2>maintainerWebsite</h2>
+          <p>An website to send contact requests</p>
+          <p>For example: <code>https://www.w3.org/groups/wg/vc</code>.</p>
+        </section>
+        <section>
+          <h2>vocabulary</h2>
+          <p>An array of URLs that contain machine-readable vocabulary information in yml2vocab or JSON-LD format.</p>
+          <p>For example: <code>["https://raw.githubusercontent.com/w3c/vc-status-list-2021/main/contexts/v1.jsonld"]</code>.</p>
+        </section>
+      </section>
     </section>
 
     <section id="conformance"></section>
 
   </section>
 
-  
+
 
   <section>
     <h1>Property Extensions</h1>
