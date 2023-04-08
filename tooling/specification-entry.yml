@@ -30,6 +30,7 @@ properties:
       - credentialStatus
       - credentialSchema
       - evidence
+      - media-type
       - proof
       - refreshService
       - termsOfUse
