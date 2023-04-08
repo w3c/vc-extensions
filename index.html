@@ -217,71 +217,76 @@ The specification entry format MUST conform to the
 <a href="https://w3c.github.io/vc-specs-dir/tooling/specification-entry.yml">
 JSON Schema for a specification entry</a>. Each field is documented below:
         </p>
-        <section>
-          <h2>name</h2>
-          <p>A short human readable name for the specification.</p>
-          <p>For example: <code>Status List (v2021)</code>.</p>
-        </section>
-        <section>
-          <h2>summary</h2>
-          <p>A one sentence description for the specification.</p>
-          <p>For example: <code>A credential status list with herd privacy characteristics.</code></p>
-        </section>
-        <section>
-          <h2>specification</h2>
-          <p>An URL that resolves to a human readable specification.</p>
-          <p>For example: <code>https://w3c.github.io/vc-status-list-2021/</code>.</p>
-        </section>
-        <section>
-          <h2>category</h2>
-          <p>The Verifiable Credential extension category of the specification.</p>
-          <p class="note"> The extensions might define an <code>@type</code>. See [[JSON-LD11]]</p>
-          <p>One of the following:</p>
-          <ul>
-            <li>
-              credentialStatus
-            </li>
-            <li>
-              credentialSchema
-            </li>
-            <li>
-              evidence
-            </li>
-            <li>
-              proof
-            </li>
-            <li>
-              refreshService
-            </li>
-            <li>
-              termsOfUse
-            </li>
-            <li>
-              vc
-            </li>
-          </ul>
-          <p>For example: <code>credentialStatus</code>.</p>
-        </section>
-        <section>
-          <h2>maintainerName</h2>
-          <p>A person or organization which responds to contact requests</p>
-          <p>For example: <code>W3C Verifiable Credentials Working Group</code>.</p>
-        </section>
-        <section>
-          <h2>maintainerEmail</h2>
-          <p>An email to send contact requests</p>
-          <p>For example: <code>public-vc-wg@w3.org</code>.</p>
-        </section>
-        <section>
-          <h2>maintainerWebsite</h2>
-          <p>An website to send contact requests</p>
-          <p>For example: <code>https://www.w3.org/groups/wg/vc</code>.</p>
-        </section>
-        <section>
-          <h2>vocabulary</h2>
-          <p>An array of URLs that contain machine-readable vocabulary information in yml2vocab or JSON-LD format.</p>
-          <p>For example: <code>["https://raw.githubusercontent.com/w3c/vc-status-list-2021/main/contexts/v1.jsonld"]</code>.</p>
-        </section>
+        <table class="simple">
+          <thead>
+            <th>Field</th>
+            <th>Description</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>name</td>
+              <td>
+A short human readable name for the specification. For example: `Status List
+(v2021)`.
+              </td>
+            </tr>
+            <tr>
+              <td>summary</td>
+              <td>
+A one sentence description for the specification. For example: `A credential
+status list with herd privacy characteristics.`
+              </td>
+            </tr>
+            <tr>
+              <td>specification</td>
+              <td>
+An URL that resolves to a human readable specification. For example:
+`https://w3c.github.io/vc-status-list-2021/`.
+              </td>
+            </tr>
+            <tr>
+              <td>category</td>
+              <td>
+The Verifiable Credential extension category of the specification, which can
+be one of the following values: `credentialStatus`, `credentialSchema`,
+`evidence`, `proof`, `refreshService`, `termsOfUse`, or `vc`.
+For example: `credentialStatus`.
+              <p class="note">
+The extensions might define a `@type`. See [[JSON-LD11]].
+              </p>
+              </td>
+            </tr>
+            <tr>
+              <td>maintainerName</td>
+              <td>
+A person or organization which responds to contact requests. For example:
+`W3C Verifiable Credentials Working Group`.
+              </td>
+            </tr>
+            <tr>
+              <td>maintainerEmail</td>
+              <td>
+An email to send contact requests. For example:
+`public-vc-wg@w3.org`.
+              </td>
+            </tr>
+            <tr>
+              <td>maintainerWebsite</td>
+              <td>
+An website to send contact requests. For example:
+`https://www.w3.org/groups/wg/vc`.
+              </td>
+            </tr>
+            <tr>
+              <td>vocabulary</td>
+              <td>
+An array of URLs that contain machine-readable vocabulary information in
+yml2vocab or JSON-LD format. For example:
+`["https://raw.githubusercontent.com/w3c/vc-status-list-2021/main/contexts/v1.jsonld"]`.
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </section>
 
