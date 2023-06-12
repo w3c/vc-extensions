@@ -1,0 +1,9 @@
+{
+  "name": "Validating Verifiable Credentials with JSON Schema",
+  "summary": "This specification defines a JSON Schema based credential schema validation scheme for use with the credential schema property of Verifiable Credentials",
+  "specification": "https://transmute-industries.github.io/vc-json-schema/",
+  "category": "credentialSchema",
+  "maintainerEmail": "orie@transmute.industries",
+  "maintainerName": "Transmute",
+  "maintainerWebsite": "https://transmute.industries"
+}
