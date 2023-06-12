@@ -1,0 +1,9 @@
+{
+  "name": "Precondition Policy",
+  "summary": "Terms of Use for Chain Reaction Revocation",
+  "specification": "https://gist.github.com/MizukiSonoko/87a11fbcea64b13ccc6873fcbe14cd1a",
+  "category": "termsOfUse",
+  "maintainerEmail": "sonoko@mizuki.io",
+  "maintainerName": "Taisei Igarashi",
+  "maintainerWebsite": "https://mizuki.io"
+} 
