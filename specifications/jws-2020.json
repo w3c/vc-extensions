@@ -1,0 +1,11 @@
+{
+  "name": "JSON Web Signatures for Data Integrity Proofs",
+  "summary": "This document has been withdrawn due to resolutions from the working group.",
+  "specification": "https://www.w3.org/TR/vc-jws-2020",
+  "category": "proof",
+  "maintainerEmail": "public-vc-wg@w3.org",
+  "maintainerName": "W3C Verifiable Credentials Working Group",
+  "maintainerWebsite": "https://www.w3.org/groups/wg/vc",
+  "vocabulary": ["https://raw.githubusercontent.com/w3c/vc-data-integrity/main/vocab/security/vocabulary.yml"]
+}
+
