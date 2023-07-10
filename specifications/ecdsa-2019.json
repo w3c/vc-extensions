@@ -1,0 +1,11 @@
+{
+  "name": "ECDSA Cryptosuite v2019",
+  "summary": "Achieving Data Integrity using ECDSA with NIST-compliant curves",
+  "specification": "https://www.w3.org/TR/vc-di-ecdsa/",
+  "category": "proof",
+  "maintainerEmail": "public-vc-wg@w3.org",
+  "maintainerName": "W3C Verifiable Credentials Working Group",
+  "maintainerWebsite": "https://www.w3.org/groups/wg/vc",
+  "vocabulary": ["https://raw.githubusercontent.com/w3c/vc-data-integrity/main/vocab/security/vocabulary.yml"]
+}
+
