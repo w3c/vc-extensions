@@ -1,0 +1,9 @@
+{
+  "name": "DSCSA Authorized Trading Partners",
+  "summary": "An architecture supporting the Authorized Trading Partner (ATP) requirements of the U.S. Drug Supply Chain Security Act (DSCSA), allowing for authentication and information exchange between DSCSA-defined ATPs and related stakeholders to establish mutual verification of identity and ATP status.",
+  "specification": "https://open-credentialing-initiative.github.io/schemas/specification/latest/index.html",
+  "category": "vc",
+  "maintainerEmail": "info@oc-i.org",
+  "maintainerName": "Open Credentialing Initiative (OCI)",
+  "maintainerWebsite": "https://oc-i.org",
+}
