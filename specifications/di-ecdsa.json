@@ -1,6 +1,6 @@
 {
-  "name": "ECDSA Cryptosuite v2019",
-  "summary": "Achieving Data Integrity using ECDSA with NIST-compliant curves",
+  "name": "The Data Integrity ECDSA Cryptosuites v1.0",
+  "summary": "Achieving Data Integrity using ECDSA with NIST-compliant curves.",
   "specification": "https://www.w3.org/TR/vc-di-ecdsa/",
   "category": "proof",
   "maintainerEmail": "public-vc-wg@w3.org",
