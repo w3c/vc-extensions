@@ -1,0 +1,9 @@
+{
+  "name": "Ethr Revocation 2022",
+  "summary": "An Ethereum, EIP-5539 compliant and registry-based revocation mechanism for Verifiable Credentials",
+  "specification": "https://spherity.github.io/vc-ethr-revocation-registry/",
+  "category": "credentialStatus",
+  "maintainerEmail": "lauritz.leifermann@spherity.com",
+  "maintainerName": "Spherity GmbH",
+  "maintainerWebsite": "https://www.spherity.com"
+}
