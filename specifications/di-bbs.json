@@ -1,7 +1,7 @@
 {
-  "name": "EdDSA Cryptosuite (v2022)",
-  "summary": "The Edwards Curve digital signature algorithm data integrity cryptosuite.",
-  "specification": "https://w3c.github.io/vc-di-eddsa/",
+  "name": "BBS Cryptosuite (v2023)",
+  "summary": "Securing Verifiable Credentials with Selective Disclosure using BBS Signatures.",
+  "specification": "https://www.w3.org/TR/vc-di-bbs/",
   "category": "proof",
   "maintainerEmail": "public-vc-wg@w3.org",
   "maintainerName": "W3C Verifiable Credentials Working Group",
