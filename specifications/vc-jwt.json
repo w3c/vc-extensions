@@ -1,7 +1,7 @@
 {
-  "name": "application/vc+jwt",
-  "summary": "Securing Verifiable Credentials using JSON Web Tokens.",
-  "specification": "https://w3c.github.io/vc-jwt/",
+  "name": "application/vc+ld+json+jwt",
+  "summary": "Securing Verifiable Credentials using JOSE and COSE",
+  "specification": "https://www.w3.org/TR/vc-jose-cose/",
   "category": "media-type",
   "maintainerEmail": "public-vc-wg@w3.org",
   "maintainerName": "W3C Verifiable Credentials Working Group",
