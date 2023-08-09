@@ -1,0 +1,9 @@
+{
+  "name": "1EdTech Verifiable Credential Refresh Service",
+  "summary": "Descriptive metadata about evidence related to an achievement assertion.",
+  "specification": "https://imsglobal.org/spec/vccr/v1p0",
+  "category": "evidence",
+  "maintainerEmail": "contact@imsglobal.org",
+  "maintainerName": "1EdTech",
+  "maintainerWebsite": "https://www.1edtech.org/"
+}
