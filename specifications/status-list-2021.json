@@ -1,7 +1,7 @@
 {
-  "name": "Status List (v2021)",
+  "name": "Bitstring Status List",
   "summary": "A credential status list with herd privacy characteristics.",
-  "specification": "https://w3c.github.io/vc-status-list-2021/",
+  "specification": "https://www.w3.org/TR/vc-bitstring-status-list/",
   "category": "credentialStatus",
   "maintainerEmail": "public-vc-wg@w3.org",
   "maintainerName": "W3C Verifiable Credentials Working Group",
