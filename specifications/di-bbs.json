@@ -2,7 +2,7 @@
   "name": "BBS Cryptosuite (v2023)",
   "summary": "Securing Verifiable Credentials with Selective Disclosure using BBS Signatures.",
   "specification": "https://www.w3.org/TR/vc-di-bbs/",
-  "category": "proof",
+  "category": "securing",
   "maintainerEmail": "public-vc-wg@w3.org",
   "maintainerName": "W3C Verifiable Credentials Working Group",
   "maintainerWebsite": "https://www.w3.org/groups/wg/vc",

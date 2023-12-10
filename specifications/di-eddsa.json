@@ -2,7 +2,7 @@
   "name": "The Data Integrity EdDSA Cryptosuites v1.0",
   "summary": "Achieving Data Integrity using EdDSA with twisted Edwards elliptic curves.",
   "specification": "https://www.w3.org/TR/vc-di-eddsa/",
-  "category": "proof",
+  "category": "securing",
   "maintainerEmail": "public-vc-wg@w3.org",
   "maintainerName": "W3C Verifiable Credentials Working Group",
   "maintainerWebsite": "https://www.w3.org/groups/wg/vc",

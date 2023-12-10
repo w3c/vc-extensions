@@ -1,0 +1,9 @@
+{
+  "name": "Securing Verifiable Credentials using JOSE and COSE",
+  "summary": "This specification defines how to secure credentials and presentations conforming to the Verifiable Credentials Data Model, with JSON Object Signing and Encryption (JOSE), and CBOR Object Signing and Encryption (COSE).",
+  "specification": "https://www.w3.org/TR/vc-jose-cose/",
+  "category": "securing",
+  "maintainerEmail": "public-vc-wg@w3.org",
+  "maintainerName": "W3C Verifiable Credentials Working Group",
+  "maintainerWebsite": "https://www.w3.org/groups/wg/vc"
+}
