@@ -1,0 +1,9 @@
+{
+  "name": "JAdES",
+  "summary": "Specification for JAdES digital signatures, specifying signatures methods under baselines B, T, LT and LTA. These signature specifications have legal validity across the European Union as per the eIDAS directive, are in use by the European Digital Credentials for Learning, and the European Blockchain Services Infrastructure.",
+  "specification": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11918201/01.01.01_60/ts_11918201v010101p.pdf",
+  "category": "securing",
+  "maintainerEmail": "EMPL-ELM-SUPPORT@ec.europa.eu",
+  "maintainerName": "European Commission",
+  "maintainerWebsite": "https://www.etsi.org/"
+}
