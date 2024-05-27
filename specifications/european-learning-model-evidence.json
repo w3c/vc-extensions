@@ -1,0 +1,9 @@
+{
+  "name": "European Learning Model Evidence Extension",
+  "summary": "Evidence Class in the European Learning Model used to link evidence of permission to issue due to mandate or accreditation.",
+  "specification": "https://europa.eu/europass/elm-browser/documentation/rdf/ap/edc/documentation/edc-generic-no-cv.html",
+  "category": "evidence",
+  "maintainerEmail": "EMPL-ELM-SUPPORT@ec.europa.eu",
+  "maintainerName": "European Commission",
+  "maintainerWebsite": "https://ec.europa.eu"
+}
