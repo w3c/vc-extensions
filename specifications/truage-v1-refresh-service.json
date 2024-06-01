@@ -1,0 +1,9 @@
+{
+  "name": "Conexxus Age Token Refresh Service (VerifiableCredentialRefresh2021)",
+  "summary": "Refresh service for retrieving a new batch of single use age tokens.",
+  "specification": "https://www.conexxus.org/resources/conexxus-age-verification-specification-v11",
+  "category": "refreshService",
+  "maintainerEmail": "info@conexxus.org",
+  "maintainerName": "Conexxus",
+  "maintainerWebsite": "https://conexxus.org/"
+}
