@@ -2,24 +2,24 @@
 
 [![Echidna Auto-publish](https://github.com/w3c/vc-specs-dir/actions/workflows/auto-publish.yml/badge.svg)](https://github.com/w3c/vc-specs-dir/actions/workflows/auto-publish.yml)
 
-# Verifiable Credential Specifications Directory
+# Verifiable Credential Extensions
 
-This repository contains a directory created by the
+This repository contains a list created by the
 [W3C Verifiable Credentials Working Group](https://www.w3.org/groups/wg/vc)
 (VC WG) for the purpose of discovering specifications known to exist in the
 Verifiable Credentials Ecosystem.
 
 An Editor's Draft of this repository is available at
-https://w3c.github.io/vc-specs-dir/.
+https://w3c.github.io/vc-extensions/.
 
-## Adding New Entries to the Directory
+## Adding New Entries to the List
 
-In order to add a new specification to this directory, you must add a JSON file
+In order to add a new specification to this list, you must add a JSON file
 to the [./specifications](./specifications) directory and
-[open a pull request](https://github.com/w3c/vc-specs-dir/pulls)
+[open a pull request](https://github.com/w3c/vc-extensions/pulls)
 to add the file to this repository.
 
-Here is an [example specification entry](https://w3c.github.io/vc-specs-dir/specifications/example.json):
+Here is an [example specification entry](https://w3c.github.io/vc-extensions/specifications/example.json):
 
 ```jsonc
 {
@@ -50,7 +50,7 @@ regarding the required criteria may be requested. If there are no
 objections or changes requested, your specification will be
 added after a minimum of 7 days and a maximum of 30 days.
 
-## Adding Anything Else to this Directory
+## Adding Anything Else to this List
 
 Use the standard fork, branch, and pull request workflow to propose changes to
 the directory. Please make branch names informative—by including the issue or
@@ -60,7 +60,7 @@ Editorial changes that improve the readability of the directory or correct
 spelling or grammatical mistakes are welcome.
 
 Non-editorial changes MUST go through a review and approval process that is
-[detailed in the directory](https://w3c.github.io/vc-specs-dir/#the-management-process).
+[detailed in the directory](https://w3c.github.io/vc-extensions/#the-management-process).
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md), about licensing contributions.
 
