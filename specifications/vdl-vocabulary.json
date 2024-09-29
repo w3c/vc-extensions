@@ -1,0 +1,10 @@
+{
+  "name": "Driver's License Vocabulary",
+  "summary": "This specification describes a Linked Data vocabulary for asserting Verifiable Credentials related to driver's licenses and identity cards. Verifiable Credentials using the driver's license vocabulary can be used to express driver's licenses and identity cards.",
+  "specification": "https://w3id.org/vdl/",
+  "category": "vc",
+  "maintainerEmail": "public-credentials@w3.org ",
+  "maintainerName": "W3C Credentials Community Group",
+  "maintainerWebsite": "https://www.w3.org/community/credentials/",
+  "vocabulary": ["https://w3id.org/vdl/"]
+}
