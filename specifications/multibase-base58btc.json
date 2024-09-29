@@ -1,0 +1,9 @@
+{
+  "name": "base58-btc",
+  "summary": "The base58 Bitcoin multibase format is used to encode binary values in a way that is easy to read for humans. The format omits the usage of characters that are easily confused with one another such as the character for the number one '1' and the lowercase 'l' character.",
+  "specification": "https://www.w3.org/TR/controller-document/#multibase-0",
+  "category": "multibase",
+  "maintainerEmail": "public-vc-wg@w3.org",
+  "maintainerName": "Verifiable Credentials Working Group",
+  "maintainerWebsite": "https://www.w3.org/groups/wg/vc/"
+}
