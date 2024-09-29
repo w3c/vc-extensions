@@ -1,0 +1,9 @@
+{
+  "name": "base64url",
+  "summary": "The base64 URL format is used to encode binary values in a way that can be efficiently processed and embedded in URLs without requiring URI encoding.",
+  "specification": "https://www.w3.org/TR/controller-document/#multibase-0",
+  "category": "multibase",
+  "maintainerEmail": "public-vc-wg@w3.org",
+  "maintainerName": "Verifiable Credentials Working Group",
+  "maintainerWebsite": "https://www.w3.org/groups/wg/vc/"
+}
