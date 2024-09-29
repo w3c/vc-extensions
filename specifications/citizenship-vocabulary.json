@@ -1,0 +1,10 @@
+{
+  "name": "Citizenship Vocabulary",
+  "summary": "This specification describes a Linked Data vocabulary for asserting Verifiable Credentials related to national citizenship. Verifiable Credentials using the citizenship vocabulary can be used to express permanent resident cards, employment authorization documents, naturalization certificates, and citizenship certificates.",
+  "specification": "https://w3id.org/citizenship/",
+  "category": "vc",
+  "maintainerEmail": "public-credentials@w3.org ",
+  "maintainerName": "W3C Credentials Community Group",
+  "maintainerWebsite": "https://www.w3.org/community/credentials/",
+  "vocabulary": ["https://w3id.org/citizenship/"]
+}
