@@ -1,0 +1,9 @@
+{
+  "name": "SHA-3",
+  "summary": "The third version of the Secure Hash Algorithms are more modern, NIST-approved cryptographic hashing algorithms.",
+  "specification": "https://www.w3.org/TR/controller-document/#multihash",
+  "category": "multihash",
+  "maintainerEmail": "public-vc-wg@w3.org",
+  "maintainerName": "Verifiable Credentials Working Group",
+  "maintainerWebsite": "https://www.w3.org/groups/wg/vc/"
+}
