@@ -31,6 +31,9 @@ properties:
       - credentialSchema
       - evidence
       - media-type
+      - multibase
+      - multihash
+      - multikey
       - securing
       - refreshService
       - termsOfUse
