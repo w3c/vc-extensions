@@ -1,0 +1,9 @@
+{
+  "name": "ECDSA",
+  "summary": "The ECDSA Multikey types are widely supported, NIST-approved, and FIPS-validated cryptographic key formats.",
+  "specification": "https://www.w3.org/TR/controller-document/#Multikey",
+  "category": "multikey",
+  "maintainerEmail": "public-vc-wg@w3.org",
+  "maintainerName": "Verifiable Credentials Working Group",
+  "maintainerWebsite": "https://www.w3.org/groups/wg/vc/"
+}

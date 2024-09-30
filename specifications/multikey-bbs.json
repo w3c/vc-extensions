@@ -1,0 +1,9 @@
+{
+  "name": "BLS 12-381",
+  "summary": "The Boneh, Lynn, and Shacham (BLS) Multikey format is a used to produce unlinkable digital signatures as a part of the Boneh, Boyen, and Shacham (BBS) cryptographic digital signature scheme.",
+  "specification": "https://www.w3.org/TR/controller-document/#Multikey",
+  "category": "multikey",
+  "maintainerEmail": "public-vc-wg@w3.org",
+  "maintainerName": "Verifiable Credentials Working Group",
+  "maintainerWebsite": "https://www.w3.org/groups/wg/vc/"
+}
